@@ -20,6 +20,7 @@ body{
 .nav{
     display: flex;
     align-content: right;
+    row-gap: 30px;
     width: 100vw;
 }
 
