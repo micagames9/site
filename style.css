@@ -17,10 +17,15 @@ body{
     width: 100vw;
 }
 
+.tit{
+    width: 25%;
+    height: 25%;
+}
+
 .nav{
     margin: 10px;
     display: flex;
-    align-items: right;
+    justify-content: right;
     gap: 15px;
 }
 
@@ -31,8 +36,22 @@ body{
     width: fit-content;
     background-image: linear-gradient(yellow,rgb(200, 130, 0));
     border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
 }
 
 .btn:hover{
     transform: scale(1.1);
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color: transparent;
+}
+
+.foot{
+    display: flex;
+    flex-direction:column;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    align-items: center;
 }
