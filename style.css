@@ -43,10 +43,6 @@ body{
     transform: scale(1.1);
 }
 
-::-webkit-scrollbar-track-piece{
-    background-color: transparent;
-}
-
 .foot{
     display: flex;
     flex-direction:column;
@@ -54,4 +50,8 @@ body{
     position: absolute;
     bottom: 0px;
     align-items: center;
+}
+
+.sec{
+    background-image: linear-gradient(yellow,rgb(200, 130, 0));
 }
