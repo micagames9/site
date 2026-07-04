@@ -107,6 +107,7 @@ img{
     border-radius: 10px;
     padding: 10px;
     display: flex;
+    cursor: pointer;
     align-items: center;
     flex-direction: column;
     box-shadow: 0 5px 10px;
@@ -117,8 +118,10 @@ img{
 }
 
 .grid{
-    background-color: white;
+    display:flex;
+    gap: 71px;
+    flex-wrap: wrap;
     width: 70rem;
     height: fit-content;
-    align-items: center;
+    align-items:center;
 }
