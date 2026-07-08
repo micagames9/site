@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Pangolin", cursive;
+}
+
+body{
+    background-color: grey;
+}
+
+.bg{
+    background-image: url(ddimg/bgdd.jpg);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(114, 114, 114),rgb(30, 30, 30));
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    text-align: justify;
+    align-items: center;
+    gap: 10px;
+    max-width: 50rem;
+}
