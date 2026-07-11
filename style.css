@@ -125,3 +125,12 @@ img{
     height: fit-content;
     align-items:center;
 }
+
+#pix{
+    margin-top: 0px;
+    cursor: default;
+}
+
+#pix:hover{
+    transform: scale(1);
+}
